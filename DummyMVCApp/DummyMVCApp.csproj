@@ -8,9 +8,11 @@
 
   <ItemGroup>
     <None Remove="CustomMiddleware\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CustomMiddleware\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <InternalsVisibleTo Include="IntegrationTesting" />
